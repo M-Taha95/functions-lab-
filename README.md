@@ -14,8 +14,9 @@ void main() {
     if (i == 2 || i == 6) {
       print(myColors[i].toString().toUpperCase());
     } else {
+      int myColorsOne = myColors.length;
       print(
-          "sorry this color contains $myColors and it is not start with a or b .");
+          "sorry this color contains $myColorsOne and it is not start with a or b .");
     }
   }
 }
